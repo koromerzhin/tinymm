@@ -1,0 +1,3 @@
+ID IMDb;ID TMDB;Titre;Saga;Année;Genre(s);Durée;Pays;Tags
+${foreach movies movie}${movie.imdbId};${movie.tmdbId};${movie.title};${movie.movieSet};${movie.year};${movie.genresAsString};${movie.runtime};${movie.country};${movie.tagsAsString}
+${end}
