@@ -1,0 +1,3 @@
+"Titre";"ID IMDb";"ID TMDB";"ID TVDB";"Année";"Première diffusion";"Statut";"Saisons";"Épisodes";"Durée";"Genre(s)";"Certification"
+${foreach tvShows tvshow}"${tvshow.title}";"${tvshow.imdbId}";"${tvshow.tmdbId}";"${tvshow.tvdbId}";"${tvshow.year}";"${tvshow.firstAired;date(yyyy-MM-dd)}";"${tvshow.status}";"${tvshow.seasonCount}";"${tvshow.episodeCount}";"${tvshow.runtime}";"${tvshow.genresAsString}";"${tvshow.certification}"
+${end}

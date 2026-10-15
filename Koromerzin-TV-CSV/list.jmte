@@ -1,3 +1,0 @@
-"Title","Imdb","tmdbId"
-${foreach tvShows tvshow}"${tvshow.title}","${tvshow.imdbId}","${tvshow.tmdbId}"
-${end}
